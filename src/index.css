@@ -737,6 +737,79 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 10px #10B981;
 }
 
+/* Hero Section Mobile Responsiveness */
+@media (max-width: 991px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-left {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-right {
+    order: -1;
+    margin-bottom: 10px;
+  }
+
+  .hero-intro {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-greeting {
+    text-align: center;
+  }
+
+  .hero-headline {
+    text-align: center;
+    font-size: 2.75rem;
+  }
+
+  .hero-headline .sub-headline {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding-top: 110px;
+  }
+
+  .profile-wrapper {
+    width: 250px;
+    height: 250px;
+  }
+
+  .profile-img-container {
+    width: 210px;
+    height: 210px;
+  }
+
+  .profile-badge {
+    right: -5px;
+    bottom: -5px;
+    font-size: 0.75rem;
+    padding: 6px 12px;
+  }
+
+  .hero-headline {
+    font-size: 2.25rem;
+  }
+
+  .hero-headline .sub-headline {
+    font-size: 1.4rem;
+  }
+}
+
 /* About Section Styles */
 .about-grid {
   display: grid;
